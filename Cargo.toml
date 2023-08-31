@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "rust_executor",
+    "rust_simple_executor",
+    "wasm_code",
+]
+[profile.release]
+panic = "unwind"

@@ -1,0 +1,13 @@
+[package]
+name = "wasm_code"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# wee_alloc = "0.4.5"
+
+[lib]
+crate-type = ["cdylib"]
+
+# TODO: You will need to change this line for exercises 4 and 5
+path = "src/lib_ex1.rs"
